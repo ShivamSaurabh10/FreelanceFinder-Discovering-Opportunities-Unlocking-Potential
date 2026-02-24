@@ -1,0 +1,17 @@
+{
+  "name": "freelancefinder",
+  "version": "1.0.0",
+  "description": "FreelanceFinder - Full Stack Freelance Marketplace",
+  "scripts": {
+    "install-all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm start",
+    "seed": "cd backend && node seed.js",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm start",
+    "build:frontend": "cd frontend && npm run build"
+  },
+  "keywords": ["freelance", "marketplace", "mern", "react", "nodejs", "mongodb"],
+  "author": "FreelanceFinder",
+  "license": "MIT"
+}
